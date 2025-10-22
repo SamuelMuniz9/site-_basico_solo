@@ -1,0 +1,53 @@
+.conteudo{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 10px solid #ccc; /* borda externa da tabela */
+    border-collapse: collapse; /* importante para bordas juntas */
+
+    
+}
+
+.tabela{
+    flex: 1;/*comando mt poderoso, faz o conteiner flex todo dividir o espaço disponivel de forma igual. */
+    border-right: 2px solid #ccc;/*linha vertical entre as colunas*/
+    text-align: center;
+    padding: 1rem 1rem;
+    flex-direction: column;
+}
+
+.tabela:last-child{
+    border-right:none;
+}
+
+.tabela h3{
+
+    min-height: 10%;
+    line-height: 10px;
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #007bf0;
+    color: white;
+    border-bottom: 2px solid #ccc; /*borda abaixo dos titulos*/
+
+}
+
+.tabela p {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+
+}
+
+
+@media (max-width: 768px){
+
+    .conteudo{
+        font-size: small;
+        padding: 1rem 0.5rem;
+        
+    }
+
+
+
+}

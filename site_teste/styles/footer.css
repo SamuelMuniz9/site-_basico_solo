@@ -1,0 +1,39 @@
+
+
+.Reviews{
+  padding: 0.2rem ;
+
+}
+.texto_final {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    
+}
+
+.texto_final h1{
+    margin: 1rem;
+}
+
+
+.conteiner_textos{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.texto{
+    flex: 1;
+    border: 1px solid #04104144;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.1);
+    background-color: #ffff;
+}
+
+.reservados{
+    text-align: center;
+}

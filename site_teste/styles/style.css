@@ -1,0 +1,23 @@
+@import url("header.css");
+@import url("main.css");
+@import url("conteudo.css");
+@import url("footer.css");
+
+
+:root{
+    --cor-de-fundo: #FFFFFF; 
+    --fonte-principal: "Poppins";
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+h1 {
+ background-color: #FFFFFF;
+}

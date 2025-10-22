@@ -1,0 +1,70 @@
+header{
+    padding:  1.5rem 3rem;
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+}
+ .cabecalho{
+        /*Estrutura*/
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: space-between; /*espaçamento, com div ele separa da forma que esta*/
+        align-items:flex-start;
+    
+
+        /*espaçamento*/
+        padding: 1rem 2rem;
+        margin: 10px;
+
+        
+
+
+
+    }
+       .container_header{
+        /*background ja tem no cabecalho, se quiser posso adicionar outra cor aqui*/
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+
+
+
+    }
+
+
+@media (max-width: 768px){
+
+
+    .cabecalho{
+        /*Estrutura*/
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: space-between; /*espaçamento, com div ele separa da forma que esta*/
+        align-items:flex-start;
+    
+
+        /*espaçamento*/
+        padding: 0.5rem 0.4rem;
+        margin: 10px;
+
+        font-size: small;
+
+
+
+    }
+
+    .container_header{
+        /*background ja tem no cabecalho, se quiser posso adicionar outra cor aqui*/
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+
+
+
+    }
+
+}

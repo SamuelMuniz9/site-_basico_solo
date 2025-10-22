@@ -1,0 +1,15 @@
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 2rem;
+
+    font-family: var(--fonte-principal);
+    background-color: blue;
+
+}
+
+.palavra_centro{
+    background-color: blue/*era so isso que eu queria, sofrendo kk */;
+}
