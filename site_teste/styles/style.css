@@ -11,10 +11,19 @@
 }
 
 body {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /*para ocupar toda a pagina use isso*/
+    width: 100%;
+    /*praticamanete config padrao pras pg*/
+    justify-content:flex-start;
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    box-sizing: border-box; /*utilizar isto garante q os elementos nao vao pro lado escondido da pagina*/
+    flex-wrap: wrap; /*permite mudar a linha, quebra de linh*/
 
 }
 
