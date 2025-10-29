@@ -11,11 +11,12 @@
 }
 
 body {
-
+    height: auto;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     height: 100vh;  /*para ocupar toda a pagina use isso*/
-    width: 100%;
+    width: 100vw;
     /*praticamanete config padrao pras pg*/
     justify-content:flex-start;
     background-color: var(--cor-de-fundo);
@@ -23,10 +24,11 @@ body {
     font-size: 16px;
     font-weight: 400;
     box-sizing: border-box; /*utilizar isto garante q os elementos nao vao pro lado escondido da pagina*/
-    flex-wrap: wrap; /*permite mudar a linha, quebra de linh*/
+    overflow-x: hidden;
 
 }
 
 h1 {
  background-color: #FFFFFF;
 }
+

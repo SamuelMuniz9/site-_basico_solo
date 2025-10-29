@@ -18,8 +18,10 @@
 
 .conteiner_textos{
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
+    flex-wrap: wrap;
+
 
 }
 
